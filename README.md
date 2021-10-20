@@ -78,3 +78,28 @@ Add the backend functionality that allows users to update existing records and d
 Confirm this functionality is working properly with Postman (recommended) or via the `curl` command in your terminal.
 
 Next, add the frontend functionality that allows users to edit existing records and delete existing records (via your RESTful API).
+
+
+## Alternative Options
+We want you to focus on what you need to work on the most. Here are some ideas for what that could look like.
+
+### MySQL Review
+Create more tables. Be creative - maybe there is a table for books and a table for authors. Maybe libraries can have certain books or loan out books. Be creative! Make interesting JOINs - Many to Many, One to Many, Many to One. Make interesting field types, relationships, etc. This is your time to play around with MySQL.
+
+### MongoDB Review
+Change the prompt so that it uses MongoDB/Mongoose instead. As listed in the MySQL prompt above, be creative with the different types of collections and their relationships to each other. Try things out, make things as unique and interesting as you can.
+
+### Node/Express Review
+Make different types of requests. Maybe some take URL parameters and some take query parameters. Look at the Express docs and see what interesting options there are - how do you want to use each of them?
+
+### React Review
+Make as many interesting components as you can. Some components should pass down props to other child components. Some components should have internal state. Some child components should alter the state of their parents (or their grandparents). Use click handlers, make some forms, play around with what React has to offer. React has some fantastic Getting Started docs that can give you an idea for what you want to practice.
+
+### Promises Review
+A great way to practice promises is with axios. Make differen axios requests. Chain those requests. Catch the errors. Then chain another request. Catch the errors again. Play around with what happens when you try to make multiple axios requests to your server or to an external API. For example, maybe you make a GET request for all authors, and then use that response to make a GET request for the author with the most number of books. How can you chain those results? Play around with it!
+
+### Client/Server Communication Review
+Similar to the Promises review, practice making different types of requests from the client to the server and send different types of data.
+
+### External API Review
+Practice using an external API. For example, you can use a movie API (like OMDB or TMDB) to find books that have been turned into movies and store that information. There's a ton of different options here!
